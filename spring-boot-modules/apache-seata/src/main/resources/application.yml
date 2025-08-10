@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: seata
+
+---
+spring:
+  config:
+    activate:
+      on-profile: seata
+server:
+  port: 8088
