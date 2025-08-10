@@ -1,4 +1,4 @@
-package com.baeldung.apache.seata.controller;
+package com.baeldung.apache.seata.content.controller;
 
 import com.baeldung.Application;
 import org.junit.jupiter.api.Test;
@@ -15,7 +15,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest(classes = Application.class)
 @AutoConfigureMockMvc
 @ActiveProfiles("seata")
-class SeataControllerIntegrationTest {
+class SeataControllerTest {
 
     @Autowired
     private MockMvc mockMvc;
